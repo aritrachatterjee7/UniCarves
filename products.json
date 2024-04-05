@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Chicken Biriyani",
+        "price": 110,
+        "image": "images/5.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Chicken Hakka Noodles",
+        "price": 90,
+        "image": "images/4.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Cheese Burger",
+        "price": 60,
+        "image": "images/9.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Chicken Cheese Sandwich",
+        "price": 50,
+        "image": "images/8.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Veg Fried Rice",
+        "price": 70,
+        "image": "images/Vegetable-Fried-Rice-2-3.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Masala Dosa",
+        "price": 55,
+        "image": "images/7.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Idli With Sambar(4pcs)",
+        "price": 30,
+        "image": "images/1.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Paratha With Aloo Dum",
+        "price": 50,
+        "image": "images/3.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Milk Tea",
+        "price": 10,
+        "image": "images/6.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Coffee",
+        "price": 110,
+        "image": "images/12.jpg"
+    }
+]

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="">
+    <div class="sidebar">
+        <h1 class="logo">UniCraves</h1>
+        <div class="sidebarmenu">
+            <a href="#"><ion-icon name="storefront-outline"></ion-icon>Home</a>
+            <a href="#"><ion-icon name="notifications-outline"></ion-icon>Notification</a>
+            <a href="#"><ion-icon name="chatbubbles-outline"></ion-icon>Contact Us</a>
+            <a href="#"><ion-icon name="settings-outline"></ion-icon>Settings</a>
+            
+        </div>
+        <div class="sidebarlogout">
+            <a href="#"><ion-icon name="log-out-outline"></ion-icon>Log Out</a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="mainnavbar">
+            <ion-icon class="menu-toggle" name="menu-outline"></ion-icon>
+            <div class="search">
+                <input type="text" placeholder="What you want to eat?">
+                <button class="searchbutton">Search</button>
+            </div>
+            <div class="icon-cart">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                </svg>
+                <span>0</span>
+            </div>
+        </div>
+        <div class="mainhighlight">
+            <div class="mainheader">
+                <h2 class="maintitle">Today's Special</h2>
+
+            </div>
+            <div class="highlightwrapper">
+                <div class="highlightcard">
+                    <img class="highlightimage" src="images/10.jpg" alt="">
+                    <div class="highlightdesc">
+                        <h4>Mutton Biriyani</h4>
+                        <p>130/-</p>
+                    </div>
+                </div>
+                <div class="highlightcard">
+                    <img class="highlightimage" src="images/momo.jpg" alt="">
+                    <div class="highlightdesc">
+                        <h4>Chickem Momo (7pcs)</h4>
+                        <p>65/-</p>
+                    </div>
+                </div>
+                <div class="highlightcard">
+                    <img class="highlightimage" src="images/fish cutlet.jpeg" alt="">
+                    <div class="highlightdesc">
+                        <h4>Fish Cutlet</h4>
+                        <p>60/-</p>
+                    </div>
+                </div>
+                <div class="highlightcard">
+                    <img class="highlightimage" src="images/rezala.jpeg" alt="">
+                    <div class="highlightdesc">
+                        <h4>Chicken Rezala</h4>
+                        <p>70/-</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        
+        <div class="mainsec">
+            <h2 class="maintitle">Choose Order</h2>
+            <div class="listProduct">
+
+
+            </div>
+        </div>
+    </div>
+    <div class="cartTab">
+        <h1>Shopping Cart</h1>
+        <div class="listCart">
+
+        </div>
+        <div class="btn">
+            <button class="close">CLOSE</button>
+            <button class="checkOut">Check Out</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
