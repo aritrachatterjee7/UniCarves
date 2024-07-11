@@ -1,6 +1,4 @@
-# Twitter Clone
-
-![Twitter Clone Logo](path_to_logo_image)
+# UniCraves
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -15,14 +13,14 @@
 - [Contact](#contact)
 
 ## Introduction
-Welcome to our Twitter/X Clone project! This is a collaborative project aiming to recreate the core functionalities of Twitter or X. Our goal is to provide a platform for users to share their thoughts in real-time, follow others, and engage in discussions.
+Welcome to UniCraves! This is a collaborative project designed to create a seamless and efficient food ordering platform tailored specifically for college students. Our goal is to provide a user-friendly interface for students to order food from various vendors around campus and beyond.
 
 ## Features
 - User authentication (Sign up, Log in, Log out)
-- Create, read, update, and delete tweets
-- Follow and unfollow users
-- Like and comment on tweets
-- Real-time notifications
+- Browse food menus from different vendors
+- Place and track orders
+- User profiles and order history
+- Real-time notifications for order status
 - Responsive design for mobile and desktop
 
 ## Tech Stack
@@ -34,11 +32,18 @@ Welcome to our Twitter/X Clone project! This is a collaborative project aiming t
 - **Deployment**: AWS
 
 ## Getting Started
+
+### Prerequisites
+Ensure you have the following installed on your local machine:
+- Node.js (>= 14.x)
+- MongoDB
+- Git
+
 ### Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/username/twitter-clone.git
-    cd twitter-clone
+    git clone https://github.com/username/unicraves.git
+    cd unicraves
     ```
 
 2. Install dependencies for both client and server:
@@ -70,7 +75,7 @@ Welcome to our Twitter/X Clone project! This is a collaborative project aiming t
 ## Usage
 1. Open your browser and navigate to `http://localhost:3000`.
 2. Sign up for a new account or log in with existing credentials.
-3. Start tweeting and exploring the app!
+3. Start exploring menus and placing orders!
 
 ## Contributing
 We welcome contributions from the community! Here's how you can get involved:
@@ -78,7 +83,7 @@ We welcome contributions from the community! Here's how you can get involved:
 1. **Fork the repository**: Click the "Fork" button at the top right of this page.
 2. **Clone your fork**: 
     ```bash
-    git clone https://github.com/your-username/twitter-clone.git
+    git clone https://github.com/your-username/unicraves.git
     ```
 3. **Create a feature branch**: 
     ```bash
@@ -100,18 +105,11 @@ Please make sure your code adheres to our coding standards and includes appropri
 Feel free to reach out to the project maintainers:
 - **Aryan Gupta** - [LinkedIn](https://linkedin.com/in/aryan-gupta-169542216)
 - **GitHub** - [Aryan07982](https://github.com/Aryan07982)
-- **Aritra Chatterjee** - [Aritra Chatterjee](linkedin.com/in/aritra-chatterjee-490458279)
+- **Aritra Chatterjee** - [LinkedIn](https://linkedin.com/in/aritra-chatterjee-490458279)
 - **GitHub** - [aritrachatterjee7](https://github.com/aritrachatterjee7)
-- **Shubhra Jyoti Bhattacharjee** - [Shubhra Jyoti Bhattacharjee](linkedin.com/in/shubhra-jyoti-bhattacharjee-172356280)
+- **Shubhra Jyoti Bhattacharjee** - [LinkedIn](https://linkedin.com/in/shubhra-jyoti-bhattacharjee-172356280)
 - **GitHub** - [shubhra-9](https://github.com/shubhra-9)
--  **Ankit Singh** - [Ankit Singh](https://linkedin.com/in/aryan-gupta-169542216)
-- **GitHub** - [thetribalgod](linkedin.com/in/ankit-singh-12b819239)
-
-
-
+- **Ankit Singh** - [LinkedIn](https://linkedin.com/in/ankit-singh-12b819239)
+- **GitHub** - [thetribalgod](https://github.com/thetribalgod)
 
 Happy coding! Let's build something amazing together!
-
----
-
-This README provides a clear overview of the project, instructions on getting started, and encourages collaboration by detailing how others can contribute.
